@@ -1,4 +1,5 @@
-mixin slide(title, text)
+mixin slide(props)
+  - var {title, text} = props
   div.banner__slide
     div.banner__title
       span.h1 !{title}
