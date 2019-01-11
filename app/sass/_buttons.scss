@@ -1,17 +1,17 @@
 .button {
-	font-family: $title-ff;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #444444;
-	padding: 15px 35px;
-	border: 1px solid;
-	display: inline-block;
-	transition: background-color .4s, border-color .4s;
+  font-family: $title-ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444444;
+  padding: 15px 35px;
+  border: 1px solid;
+  display: inline-block;
+  transition: background-color .4s, border-color .4s;
 
-	&:hover {
-		background-color: $c-main;
-		border-color: $c-main; 
-	}
+  &:hover {
+    background-color: $c-main;
+    border-color: $c-main; 
+  }
 }
 
 .content-buttons {

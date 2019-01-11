@@ -1,12 +1,12 @@
 .h1 {
-	@include if-smaller-than(535px) {
-		font-size: 35px;
+  @include if-smaller-than(535px) {
+    font-size: 35px;
   }
   
-	font-family: $title-ff;
-	font-weight: 900;
-	font-size: 60px;
-	color: #444444;
+  font-family: $title-ff;
+  font-weight: 900;
+  font-size: 60px;
+  color: #444444;
 }
 
 h2 {

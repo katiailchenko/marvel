@@ -1,30 +1,30 @@
 .slick-dots {
   display: flex;
   
-	li {
-		&:not(:last-child) {
-			margin-right: 3px;
+  li {
+    &:not(:last-child) {
+      margin-right: 3px;
     }
     
-		button {
-		font-size: 0;
-		border: none;
-		display: inline-block;
-		width: 22px;
-		height: 4px;
-		cursor: pointer;
-		background-color: #e3e3e3;
-		transition: background-color .4s;
-		outline: none;
-		
+    button {
+    font-size: 0;
+    border: none;
+    display: inline-block;
+    width: 22px;
+    height: 4px;
+    cursor: pointer;
+    background-color: #e3e3e3;
+    transition: background-color .4s;
+    outline: none;
+    
   }
   
-	  &.slick-active {
-		  button {
-		  background-color: #444;
-		  }
-	  }
-	}
+    &.slick-active {
+      button {
+      background-color: #444;
+      }
+    }
+  }
 }
 
 .banner {
