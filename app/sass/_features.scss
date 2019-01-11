@@ -20,7 +20,7 @@
 .features-item {
   @include cell-width(33.33%);
   display: flex;
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 
   @include if-smaller-than(1024px) {
     @include cell-width(50%);

@@ -93,12 +93,12 @@
 
   &__button {
 
-    button {
-      background-color: transparent;
+    .button {
       font-size: 17px;
       font-weight: 700;
       color: #000;
       cursor: pointer;
+      padding: 18px 48px;
     }
   }
 }
@@ -133,7 +133,7 @@
     z-index: 1;
 
     span {
-      margin-left: 30px;
+      margin-left: 10px;
       font-size: 25px;
     }
   }

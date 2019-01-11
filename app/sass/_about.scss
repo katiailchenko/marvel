@@ -63,7 +63,7 @@
   display: flex;
 
   &__content {
-    margin: auto;
+    margin: 85px auto auto;
     width: 100%;
     position: relative;
     transition: transform .5s;
@@ -93,6 +93,8 @@
 
     h4 {
       color: #fff;
+      text-transform: unset;
+      font-size: 24px;
     }
 
     .advantage-item:hover & {
@@ -130,7 +132,7 @@
     }
 
     font-size: 30px;
-    margin: 0 0 115px;
+    margin: 0 0 105px;
   }
 
   &__numbers {
