@@ -39,7 +39,6 @@
 
   &__decoration {
     @include decoration;
-    background-color: #fcfcfc;
 
     img {
       @include if-smaller-than(1050px) {

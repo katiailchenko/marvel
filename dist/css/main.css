@@ -426,8 +426,7 @@ h4 {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: -1;
-    background-color: #fcfcfc; }
+    z-index: -1; }
     .banner__decoration img {
       position: absolute;
       bottom: 0;
